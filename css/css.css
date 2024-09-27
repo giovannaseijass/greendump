@@ -1,0 +1,200 @@
+/*<link rel="stylesheet" href="css/css.css">*/
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+.folha2{
+    margin-top: -55px;
+    position: fixed;
+}
+
+.folha1{
+    margin-bottom: 1350px;
+    margin-left: 1620px;
+    position: fixed;
+}
+
+
+/* .folhatres{
+    margin-bottom: 75%;
+    margin-left: 85%;
+}
+
+.folhaquatro{
+    margin-bottom: 75%;
+    margin-left: 85%;
+} */
+
+p{
+    color: white;
+    font-size: 50px;
+    filter: drop-shadow(#707070 2px 3px 4px);
+    font-family: "Manrope", sans-serif;
+}
+
+/* .center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+} */
+
+.centro{
+    background-color: #A0CF64;
+    border: none;
+    border-radius: 65px;
+    width: 550px;
+    height: 550px;
+    padding: 10px 65px;
+    margin-left: 30%;
+    margin-top: 60px;
+    filter: drop-shadow(#707070 0px 5px 6px);
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+/* a partir de confirmação */
+
+body{
+    background-color: #E9FFCD;
+}
+
+.centrorosa {
+    z-index: 1; /* Agora tem um z-index menor */
+    background-color: #F5D3B6;
+    border: none;
+    border-radius: 65px;
+    width: 555px;
+    height: 565px;
+    padding: 10px 65px;
+    margin: 30px 590px; /* Ajuste negativo para sobreposição */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Para centralizar verticalmente */
+    position: absolute; /* Mantém a posição em relação ao pai */
+}
+
+.centroamarelo {
+    z-index: 2; /* Agora tem um z-index menor */
+    background-color: #F9EA91;
+    border: none;
+    border-radius: 65px;
+    width: 555px;
+    height: 570px;
+    padding: 10px 65px;
+    margin: -5px 625px; /* Ajuste negativo para sobreposição */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Para centralizar verticalmente */
+    position: fixed; /* Mantém a posição em relação ao pai */
+}
+
+.proximocentro {
+    z-index: 3; /* Aumentei o z-index para que fique na frente */
+    background-color: #A0CF64;
+    border: none;
+    border-radius: 65px;
+    width: 550px;
+    height: 550px;
+    padding: 10px 65px;
+    margin: 20px auto; /* Unifiquei a margem */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center; /* Para centralizar verticalmente */
+    position: relative; /* Para usar o z-index corretamente */
+}
+
+
+
+
+.rm{
+    background-color: #BBE387;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    width: 400px;
+    height: 45px;
+    margin-left: 13%;
+    border-radius: 10px;
+    border: none;
+    font-family: "Manrope", sans-serif;
+    filter: drop-shadow(#808080 0px 1px 4px);
+}
+
+.entrar{
+    background-color: #BBE387;
+    border: 4px solid #BBE387;
+    border-radius: 10px;
+    width: 250px;
+    height: 45px;
+    font-size: 26px;
+    color: white;
+    font-family: "Manrope", sans-serif;
+    text-shadow: 2px 2px 8px black;
+    transition-duration: 0.4s;
+    filter: drop-shadow(#808080 0px 4px 5px);
+    position: fixed;
+    margin-left: 20px;
+}
+
+.link{
+    width: 250px;
+    height: 45px;
+}
+
+.manrope-yes{
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+}
+
+.entrar:hover {
+    background-color: #A0CF64; 
+    color: white;
+}
+
+.rm:focus{
+    outline: none;
+    border: #B1DD78;
+}
+
+.logo {
+    height: 70px;
+    width: 70px;
+    margin-left: 225px;
+}
+
+/* Tela confirmação */
+
+.opcao {
+    background-color: #BBE387;
+    border: 4px solid #BBE387;
+    border-radius: 10px;
+    width: 150px;
+    height: 45px;
+    font-size: 26px;
+    color: white;
+    font-family: "Manrope", sans-serif;
+    text-shadow: 2px 2px 8px black;
+    transition-duration: 0.4s;
+    filter: drop-shadow(#808080 0px 4px 5px); 
+}
+
+.opcao:hover {
+    background-color: #A0CF64; 
+    color: white;
+}
+
+.botaos {
+    align-items: stretch;
+    color: #A0CF64;
+}
